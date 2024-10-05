@@ -4,3 +4,4 @@
 
 /.vs
 /PlatformDemoDbContext/obj
+/platformDemoWeb/obj
