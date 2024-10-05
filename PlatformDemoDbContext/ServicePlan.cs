@@ -8,7 +8,14 @@ namespace PlatformDemoDbContext
 {
     public class ServicePlan
     {
-        public int Id { get; set; }
+        public int ServicePlanId { get; set; }
         public DateTime DateOfPurchase { get; set; }
+    }
+
+    public class ServicePlanViewModel
+    {
+        public int ServicePlanId { get; set; }
+        public DateTime DateOfPurchase { get; set; }
+        public List<TimeSheet> TimeSheets { get; set; } = new List<TimeSheet>();
     }
 }
