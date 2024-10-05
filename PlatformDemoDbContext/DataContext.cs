@@ -9,5 +9,7 @@ namespace PlatformDemoDbContext
         {
             
         }
+        public DbSet<ServicePlan> ServicePlans { get; set; }
+        public DbSet<TimeSheet> TimeSheets { get; set; }
     }
 }
